@@ -42,7 +42,7 @@
         android:layout_width="150dp"
         android:layout_height="193dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="45sp"
+        android:layout_marginTop="40sp"
         app:cardCornerRadius="20dp"
         app:cardElevation="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -54,26 +54,34 @@
         <ImageView
             android:id="@+id/tmg1"
             android:layout_width="match_parent"
-            android:layout_height="156dp"
-            app:srcCompat="@drawable/images2"/>
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/images2" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="37dp"
-             android:layout_marginTop="156dp"
-            android:text="LOSS WIGHT"
-            android:textAlignment="center"
-            android:textSize="20sp"
-            android:textColor="@color/Yallow"
-            android:clickable="true"/>
     </com.google.android.material.card.MaterialCardView>
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/Yallow"
+        android:text="loss wagit"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialCardView"
+        app:layout_constraintVertical_bias="0.0" />
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/materialCardView2"
         android:layout_width="150dp"
         android:layout_height="193dp"
         android:layout_marginStart="228dp"
-        android:layout_marginTop="45sp"
+        android:layout_marginTop="40sp"
         app:cardCornerRadius="20dp"
         app:cardElevation="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -86,51 +94,67 @@
             android:id="@+id/tmg2"
             android:layout_width="match_parent"
             android:layout_height="156dp"
-            app:srcCompat="@drawable/images4"/>
+            app:srcCompat="@drawable/images4" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="37dp"
-            android:layout_marginTop="156dp"
-            android:text="GET BODY"
-            android:textAlignment="center"
-            android:textSize="20sp"
-            android:textColor="@color/Yallow"
-            android:clickable="false"/>
 
     </com.google.android.material.card.MaterialCardView>
+
+    <Button
+        android:id="@+id/Button2"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="292dp"
+        android:backgroundTint="@color/Yallow"
+        android:text="get body"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialCardView2"
+        app:layout_constraintVertical_bias="0.055" />
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/materialCardView3"
         android:layout_width="150dp"
         android:layout_height="193dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="45sp"
+        android:layout_marginTop="50sp"
+        android:backgroundTint="@color/GRAY"
         app:cardCornerRadius="20dp"
         app:cardElevation="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.793"
-        android:backgroundTint="@color/GRAY">
+        app:layout_constraintVertical_bias="0.793">
 
         <ImageView
             android:id="@+id/tmg3"
             android:layout_width="match_parent"
             android:layout_height="156dp"
-            app:srcCompat="@drawable/images5"/>
+            app:srcCompat="@drawable/images5" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="37dp"
-            android:layout_marginTop="156dp"
-            android:text="LISTEN MUSIC"
-            android:textAlignment="center"
-            android:textSize="20sp"
-            android:textColor="@color/Yallow"
-            android:clickable="true"/>
 
     </com.google.android.material.card.MaterialCardView>
+
+    <Button
+        android:id="@+id/Button3"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/Yallow"
+        android:text="music"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Button4"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialCardView3"
+        app:layout_constraintVertical_bias="0.519" />
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/materialCardView4"
@@ -149,21 +173,27 @@
         <ImageView
             android:id="@+id/tmg4"
             android:layout_width="match_parent"
-            android:layout_height="156dp"
+            android:layout_height="match_parent"
             app:srcCompat="@drawable/images6"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="37dp"
-            android:layout_marginTop="156dp"
-            android:text="GOOGLE MAP"
-            android:textAlignment="center"
-            android:textSize="20sp"
-            android:textColor="@color/Yallow"
-            android:clickable="true"/>
+
 
     </com.google.android.material.card.MaterialCardView>
 
+    <Button
+        android:id="@+id/Button4"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+android:text="GOOGLE "
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="@color/Yallow"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialCardView4"
+        app:layout_constraintVertical_bias="0.519" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
