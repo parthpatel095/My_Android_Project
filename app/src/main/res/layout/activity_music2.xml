@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Music1">
+    tools:context=".Music2">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -45,7 +45,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="fitXY"
-                    app:srcCompat="@drawable/images7" />
+                    app:srcCompat="@drawable/images8" />
             </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.card.MaterialCardView
@@ -69,7 +69,7 @@
                         android:id="@+id/textView2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Dil ko Karar Aya Tujpe he Pyar Ayaa ....."
+                        android:text="Chal Le Chale Tumhe Taro Ke Sahar Me ....."
                         android:textColor="@color/Yallow"
                         android:textSize="24sp"
                         android:textStyle="bold"

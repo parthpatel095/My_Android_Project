@@ -62,7 +62,7 @@
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/materialCardView1"
-            android:layout_width="396dp"
+            android:layout_width="356dp"
             android:layout_height="113dp"
             android:layout_marginStart="32dp"
             android:layout_marginTop="14dp"
@@ -74,12 +74,40 @@
             app:layout_constraintTop_toBottomOf="@+id/text2"
             app:layout_constraintVertical_bias="0.0">
 
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/images7" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="237dp"
+                android:layout_height="63dp"
+                android:text="Dil ko karar aya tujpe hi pyar aya ..."
+                android:textColor="@color/Yallow"
+                android:textSize="21sp"
+                android:layout_marginStart="119dp"
+                app:layout_constraintEnd_toEndof="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView" />
+
+            <Button
+                android:layout_width="95sp"
+                android:layout_height="34sp"
+                android:layout_marginStart="163dp"
+                android:layout_marginTop="60dp"
+                android:backgroundTint="@color/Yallow"
+                android:text="PLAY"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="@+id/materialCardView1"
+                app:layout_constraintTop_toBottomOf="@+id/tv1" />
         </com.google.android.material.card.MaterialCardView>
 
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/materialCardView2"
-            android:layout_width="396dp"
+            android:layout_width="356dp"
             android:layout_height="113dp"
             android:layout_marginStart="32dp"
             android:layout_marginTop="14dp"
@@ -91,11 +119,39 @@
             app:layout_constraintTop_toBottomOf="@+id/materialCardView1"
             app:layout_constraintVertical_bias="0.0">
 
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/images8" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="237dp"
+                android:layout_height="63dp"
+                android:text="Chal Le Chalu tumhe Taroke Saher me ..."
+                android:textColor="@color/Yallow"
+                android:textSize="21sp"
+                android:layout_marginStart="119dp"
+                app:layout_constraintEnd_toEndof="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView" />
+
+            <Button
+                android:layout_width="95sp"
+                android:layout_height="34sp"
+                android:layout_marginStart="163dp"
+                android:layout_marginTop="60dp"
+                android:backgroundTint="@color/Yallow"
+                android:text="PLAY"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="@+id/materialCardView1"
+                app:layout_constraintTop_toBottomOf="@+id/tv1" />
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/materialCardView3"
-            android:layout_width="396dp"
+            android:layout_width="356dp"
             android:layout_height="113dp"
             android:layout_marginStart="32dp"
             android:layout_marginTop="14dp"
@@ -111,7 +167,7 @@
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/materialCardView4"
-            android:layout_width="396dp"
+            android:layout_width="356dp"
             android:layout_height="113dp"
             android:layout_marginStart="32dp"
             android:layout_marginTop="14dp"
@@ -127,7 +183,7 @@
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/materialCardView5"
-            android:layout_width="396dp"
+            android:layout_width="356dp"
             android:layout_height="113dp"
             android:layout_marginStart="32dp"
             android:layout_marginTop="14dp"
@@ -143,7 +199,7 @@
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/materialCardView6"
-            android:layout_width="396dp"
+            android:layout_width="356dp"
             android:layout_height="113dp"
             android:layout_marginStart="32dp"
             android:layout_marginTop="14dp"
