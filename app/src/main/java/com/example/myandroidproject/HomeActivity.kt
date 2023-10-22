@@ -12,7 +12,7 @@ class HomeActivity : AppCompatActivity() {
 
       val losswidht:Button=findViewById(R.id.Button1)
         losswidht.setOnClickListener {
-            Intent( this,LossWightHome::class.java).also { startActivity(it) }
+            Intent( this,loss_Wight_main::class.java).also { startActivity(it) }
         }
 
         val getBody : Button=findViewById(R.id.Button2)
