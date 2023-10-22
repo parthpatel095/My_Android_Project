@@ -89,14 +89,14 @@
                 android:textColor="@color/Yallow"
                 android:textSize="21sp"
                 android:layout_marginStart="119dp"
-                app:layout_constraintEnd_toEndof="parent"
-                app:layout_constraintStart_toEndOf="@+id/imageView" />
+                  app:layout_constraintStart_toEndOf="@+id/imageView" />
 
             <Button
+                android:id="@+id/Button1"
                 android:layout_width="95sp"
-                android:layout_height="34sp"
+                android:layout_height="48sp"
                 android:layout_marginStart="163dp"
-                android:layout_marginTop="60dp"
+                android:layout_marginTop="70dp"
                 android:backgroundTint="@color/Yallow"
                 android:text="PLAY"
                 android:textColor="@color/black"
@@ -134,14 +134,14 @@
                 android:textColor="@color/Yallow"
                 android:textSize="21sp"
                 android:layout_marginStart="119dp"
-                app:layout_constraintEnd_toEndof="parent"
-                app:layout_constraintStart_toEndOf="@+id/imageView" />
+                  app:layout_constraintStart_toEndOf="@+id/imageView" />
 
             <Button
+                android:id="@+id/Button2"
                 android:layout_width="95sp"
-                android:layout_height="34sp"
+                android:layout_height="48sp"
                 android:layout_marginStart="163dp"
-                android:layout_marginTop="60dp"
+                android:layout_marginTop="70dp"
                 android:backgroundTint="@color/Yallow"
                 android:text="PLAY"
                 android:textColor="@color/black"
@@ -163,6 +163,34 @@
             app:layout_constraintTop_toBottomOf="@+id/materialCardView2"
             app:layout_constraintVertical_bias="0.0">
 
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/images8" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="237dp"
+                android:layout_height="63dp"
+                android:text="Chal Le Chalu tumhe Taroke Saher me ..."
+                android:textColor="@color/Yallow"
+                android:textSize="21sp"
+                android:layout_marginStart="119dp"
+                app:layout_constraintStart_toEndOf="@+id/imageView3" />
+
+            <Button
+                android:id="@+id/Button3"
+                android:layout_width="95sp"
+                android:layout_height="48sp"
+                android:layout_marginStart="163dp"
+                android:layout_marginTop="70dp"
+                android:backgroundTint="@color/Yallow"
+                android:text="PLAY"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="@+id/materialCardView3"
+                app:layout_constraintTop_toBottomOf="@+id/tv3" />
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
@@ -179,6 +207,34 @@
             app:layout_constraintTop_toBottomOf="@+id/materialCardView3"
             app:layout_constraintVertical_bias="0.0">
 
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/images8" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="237dp"
+                android:layout_height="63dp"
+                android:text="Chal Le Chalu tumhe Taroke Saher me ..."
+                android:textColor="@color/Yallow"
+                android:textSize="21sp"
+                android:layout_marginStart="119dp"
+                app:layout_constraintStart_toEndOf="@+id/imageView4" />
+
+            <Button
+                android:id="@+id/Button4"
+                android:layout_width="95sp"
+                android:layout_height="48sp"
+                android:layout_marginStart="163dp"
+                android:layout_marginTop="70dp"
+                android:backgroundTint="@color/Yallow"
+                android:text="PLAY"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="@+id/materialCardView4"
+                app:layout_constraintTop_toBottomOf="@+id/tv4" />
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
@@ -195,6 +251,34 @@
             app:layout_constraintTop_toBottomOf="@+id/materialCardView4"
             app:layout_constraintVertical_bias="0.015">
 
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/images8" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="237dp"
+                android:layout_height="63dp"
+                android:text="Chal Le Chalu tumhe Taroke Saher me ..."
+                android:textColor="@color/Yallow"
+                android:textSize="21sp"
+                android:layout_marginStart="119dp"
+                app:layout_constraintStart_toEndOf="@+id/imageView5" />
+
+            <Button
+                android:id="@+id/Button5"
+                android:layout_width="95sp"
+                android:layout_height="48sp"
+                android:layout_marginStart="163dp"
+                android:layout_marginTop="70dp"
+                android:backgroundTint="@color/Yallow"
+                android:text="PLAY"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="@+id/materialCardView5"
+                app:layout_constraintTop_toBottomOf="@+id/tv5" />
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
@@ -211,6 +295,34 @@
             app:layout_constraintTop_toBottomOf="@+id/materialCardView5"
             app:layout_constraintVertical_bias="1.0">
 
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/images8" />
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="237dp"
+                android:layout_height="63dp"
+                android:text="Chal Le Chalu tumhe Taroke Saher me ..."
+                android:textColor="@color/Yallow"
+                android:textSize="21sp"
+                android:layout_marginStart="119dp"
+                app:layout_constraintStart_toEndOf="@+id/imageView6" />
+
+            <Button
+                android:id="@+id/Button6"
+                android:layout_width="95sp"
+                android:layout_height="48sp"
+                android:layout_marginStart="163dp"
+                android:layout_marginTop="70dp"
+                android:backgroundTint="@color/Yallow"
+                android:text="PLAY"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="@+id/materialCardView3"
+                app:layout_constraintTop_toBottomOf="@+id/tv6" />
         </com.google.android.material.card.MaterialCardView>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
