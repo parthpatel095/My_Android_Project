@@ -17,7 +17,7 @@ class HomeActivity : AppCompatActivity() {
 
         val getBody : Button=findViewById(R.id.Button2)
         getBody.setOnClickListener {
-            Intent(this,GetBody::class.java).also { startActivity(it) }
+            Intent(this,GetBody_main::class.java).also { startActivity(it) }
         }
 
         val music:Button=findViewById(R.id.Button3)
