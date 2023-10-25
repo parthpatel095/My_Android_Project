@@ -77,7 +77,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:srcCompat="@drawable/images9"/>
+            app:srcCompat="@drawable/loss" />
     </com.google.android.material.card.MaterialCardView>
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/materialCardView2"
@@ -140,13 +140,13 @@
             android:id="@+id/image2"
             android:layout_width="119dp"
             android:layout_height="150dp"
-            app:srcCompat="@drawable/img" />
+            app:srcCompat="@drawable/images16" />
 
         <TextView
             android:id="@+id/Text2"
             android:layout_width="245dp"
             android:layout_height="63dp"
-            android:text=" top diet plan for Bigner."
+            android:text=" Some Exesice for helps you."
             android:textColor="@color/Yallow"
             android:textSize="24dp"
             android:layout_marginStart="120dp" />
@@ -184,13 +184,13 @@
             android:id="@+id/image3"
             android:layout_width="119dp"
             android:layout_height="150dp"
-            app:srcCompat="@drawable/img" />
+            app:srcCompat="@drawable/images17" />
 
         <TextView
             android:id="@+id/Text3"
             android:layout_width="245dp"
             android:layout_height="63dp"
-            android:text=" top diet plan for Bigner."
+            android:text=" Ragister your self for offline visit."
             android:textColor="@color/Yallow"
             android:textSize="24dp"
             android:layout_marginStart="120dp" />

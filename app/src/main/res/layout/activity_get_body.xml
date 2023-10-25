@@ -52,7 +52,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text=" do you want a sexy body...."
+            android:text=" Stop wishing Start Doing...."
             android:textColor="@color/black"
             android:textSize="28dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -76,7 +76,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/download"/>
+                app:srcCompat="@drawable/download" />
         </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/materialCardView2"
@@ -140,13 +140,13 @@
                 android:id="@+id/image2"
                 android:layout_width="119dp"
                 android:layout_height="150dp"
-                app:srcCompat="@drawable/img" />
+                app:srcCompat="@drawable/download3" />
 
             <TextView
                 android:id="@+id/Text2"
                 android:layout_width="245dp"
                 android:layout_height="63dp"
-                android:text=" top diet plan for Bigner."
+                android:text=" Some exersice for you."
                 android:textColor="@color/Yallow"
                 android:textSize="24dp"
                 android:layout_marginStart="120dp" />
@@ -183,13 +183,13 @@
                 android:id="@+id/image3"
                 android:layout_width="119dp"
                 android:layout_height="150dp"
-                app:srcCompat="@drawable/img" />
+                app:srcCompat="@drawable/images17" />
 
             <TextView
                 android:id="@+id/Text3"
                 android:layout_width="245dp"
                 android:layout_height="63dp"
-                android:text=" top diet plan for Bigner."
+                android:text=" ragister your self for offline visit."
                 android:textColor="@color/Yallow"
                 android:textSize="24dp"
                 android:layout_marginStart="120dp" />
