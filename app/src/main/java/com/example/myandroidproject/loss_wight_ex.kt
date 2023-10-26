@@ -3,9 +3,9 @@ package com.example.myandroidproject
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class Ragister_Gym : AppCompatActivity() {
+class loss_wight_ex : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_ragister_gym)
+        setContentView(R.layout.activity_loss_wight_ex)
     }
 }

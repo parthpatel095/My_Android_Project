@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MyAndroidProject"
         tools:targetApi="31">
         <activity
+            android:name=".loss_wight_ex"
+            android:exported="false" />
+        <activity
+            android:name=".loss_wight_diet"
+            android:exported="false" />
+        <activity
             android:name=".GetBody_main"
             android:exported="false" />
         <activity
