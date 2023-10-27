@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import android.widget.Button
 
 class GetBody_main : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,5 +16,7 @@ class GetBody_main : AppCompatActivity() {
             startActivity(Intent(this,GetBody::class.java))
             finish()
         } , 3000)
+
+
     }
 }

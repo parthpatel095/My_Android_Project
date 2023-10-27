@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:fillViewport="true"
+    android:background="@color/light_GRAY">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".LossWightHome">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/GRAY"
+            android:text="FITNESS GYM"
+            android:textAlignment="center"
+            android:textColor="@color/Yallow"
+            android:textSize="48dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.025" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="108dp"
+            android:text="HEY!!!"
+            android:textColor="@color/Yallow"
+            android:textSize="38dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.051"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+
+            android:text="Eat healthy, live long, live strong!
+Eat Well, Live Well "
+            android:textColor="@color/black"
+            android:textSize="28dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text1" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/materialCardView1"
+            android:layout_width="match_parent"
+            android:layout_height="193dp"
+            android:backgroundTint="@color/GRAY"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text2"
+            app:layout_constraintVertical_bias="0.0"
+            android:layout_marginTop="14dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/images12" />
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/materialCardView2"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:backgroundTint="@color/GRAY"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materialCardView1"
+            app:layout_constraintVertical_bias="0.0"
+            android:layout_marginTop="14dp">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="119dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/smoothies" />
+
+            <TextView
+                android:id="@+id/Text1"
+                android:layout_width="245dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="120dp"
+                android:text="1):proteinsmoothie."
+                android:textColor="@color/Yallow"
+                android:textSize="28dp"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/Text2"
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:text=" Making your own smoothies gives you full control over the ingredients.    "
+                android:textColor="@color/Yallow"
+                android:textSize="24dp"
+                android:layout_marginTop="65dp"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/materialCardView3"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:backgroundTint="@color/GRAY"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materialCardView2"
+            app:layout_constraintVertical_bias="0.0"
+            android:layout_marginTop="14dp">
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="119dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/milk" />
+
+            <TextView
+                android:id="@+id/Text3"
+                android:layout_width="245dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="120dp"
+                android:text="2): milk."
+                android:textColor="@color/Yallow"
+                android:textSize="28dp"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/Text4"
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:text=" Dairy milk has been used as a weight gainer or muscle builder for decades "
+                android:textColor="@color/Yallow"
+                android:textSize="24dp"
+                android:layout_marginTop="65dp"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/materialCardView4"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:backgroundTint="@color/GRAY"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materialCardView3"
+            app:layout_constraintVertical_bias="0.0"
+            android:layout_marginTop="14dp">
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="119dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/rice" />
+
+            <TextView
+                android:id="@+id/Text5"
+                android:layout_width="245dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="120dp"
+                android:text="3):  Rice."
+                android:textColor="@color/Yallow"
+                android:textSize="28dp"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/Text6"
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:text="  Rice is a convenient, low cost carb source that can be part of a weight gain eating plan.  "
+                android:textColor="@color/Yallow"
+                android:textSize="24dp"
+                android:layout_marginTop="65dp"/>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/materialCardView5"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:backgroundTint="@color/GRAY"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materialCardView4"
+            app:layout_constraintVertical_bias="0.0"
+            android:layout_marginTop="14dp">
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="119dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/vage" />
+
+            <TextView
+                android:id="@+id/Text7"
+                android:layout_width="245dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="120dp"
+                android:text="4): Vegetables."
+                android:textColor="@color/Yallow"
+                android:textSize="28dp"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/Text8"
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:text=" You can add more veggies to your diet, enjoy your cheat foods.   "
+                android:textColor="@color/Yallow"
+                android:textSize="24dp"
+                android:layout_marginTop="65dp"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/materialCardView6"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:backgroundTint="@color/GRAY"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materialCardView5"
+            app:layout_constraintVertical_bias="0.0"
+            android:layout_marginTop="14dp">
+
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="119dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/nuts" />
+
+            <TextView
+                android:id="@+id/Text9"
+                android:layout_width="245dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="120dp"
+                android:text="5): Nuts."
+                android:textColor="@color/Yallow"
+                android:textSize="28dp"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/Text10"
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:text=" For a great snack on the run, take a small handful of almonds, peanuts, walnuts, or pecans.  "
+                android:textColor="@color/Yallow"
+                android:textSize="24dp"
+                android:layout_marginTop="65dp"/>
+        </com.google.android.material.card.MaterialCardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

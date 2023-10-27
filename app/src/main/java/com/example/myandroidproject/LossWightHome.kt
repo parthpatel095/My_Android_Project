@@ -14,5 +14,10 @@ class LossWightHome : AppCompatActivity() {
         dite.setOnClickListener {
             Intent( this,loss_wight_diet::class.java).also { startActivity(it) }
         }
+
+        val exasice: Button =findViewById(R.id.Button2)
+        exasice.setOnClickListener {
+            Intent(this, loss_wight_ex::class.java).also { startActivity(it) }
+        }
     }
 }
