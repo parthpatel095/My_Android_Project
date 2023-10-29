@@ -1,14 +1,17 @@
 package com.example.myandroidproject
 
 import android.content.Intent
+import android.graphics.drawable.AnimationDrawable
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageView
 import android.widget.MediaController
 import android.widget.VideoView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class loss_wight_ex : AppCompatActivity() {
+    lateinit var heartanimation : AnimationDrawable
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_loss_wight_ex)
@@ -40,6 +43,28 @@ class loss_wight_ex : AppCompatActivity() {
         myVideoview3.requestFocus()
         myVideoview3.start()
 
+        val heart1 : ImageView = findViewById(R.id.heart)
+        heart1.setBackgroundResource(R.drawable.heart_animation)
+        heartanimation = heart1.background as AnimationDrawable
 
+        val heart2 : ImageView = findViewById(R.id.heart2)
+        heart2.setBackgroundResource(R.drawable.heart_animation)
+        heartanimation = heart2.background as AnimationDrawable
+
+        val heart3 : ImageView = findViewById(R.id.heart3)
+        heart3.setBackgroundResource(R.drawable.heart_animation)
+        heartanimation = heart3.background as AnimationDrawable
+    }
+
+    override fun onWindowFocusChanged(hasFocus: Boolean) {
+        super.onWindowFocusChanged(hasFocus)
+        if (hasFocus) {
+
+            heartanimation.start()
+        }
+        else {
+
+            heartanimation.stop()
+        }
     }
 }
