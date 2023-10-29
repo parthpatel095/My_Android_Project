@@ -61,10 +61,10 @@
 
     <Button
         android:id="@+id/Button1"
-        android:layout_width="143dp"
+        android:layout_width="147dp"
         android:layout_height="50dp"
         android:backgroundTint="@color/Yallow"
-        android:text="loss wagit"
+        android:text="Lossweight"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -101,12 +101,12 @@
 
     <Button
         android:id="@+id/Button2"
-        android:layout_width="143dp"
+        android:layout_width="147dp"
         android:layout_height="50dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="292dp"
         android:backgroundTint="@color/Yallow"
-        android:text="get body"
+        android:text="Get body"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -141,10 +141,10 @@
 
     <Button
         android:id="@+id/Button3"
-        android:layout_width="143dp"
+        android:layout_width="147dp"
         android:layout_height="50dp"
         android:backgroundTint="@color/Yallow"
-        android:text="music"
+        android:text="Music"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -182,11 +182,11 @@
 
     <Button
         android:id="@+id/Button4"
-        android:layout_width="143dp"
+        android:layout_width="147dp"
         android:layout_height="50dp"
         android:layout_marginEnd="32dp"
         android:backgroundTint="@color/Yallow"
-        android:text="GOOGLE "
+        android:text="Google "
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="20sp"
