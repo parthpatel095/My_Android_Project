@@ -22,7 +22,7 @@ class HomeActivity : AppCompatActivity() {
 
         val music:Button=findViewById(R.id.Button3)
         music.setOnClickListener {
-            Intent(this,Music_mainActivity::class.java).also { startActivity(it) }
+            Intent(this,Music_faist_Page::class.java).also { startActivity(it) }
         }
 
     }

@@ -19,5 +19,10 @@ class GetBody : AppCompatActivity() {
         getBodydiet.setOnClickListener {
             Intent(this,Get_Body_Diet::class.java).also { startActivity(it) }
         }
+
+        val getBodyregister : Button =findViewById(R.id.Button3)
+        getBodyregister.setOnClickListener {
+            Intent(this,Ragister_from::class.java).also { startActivity(it) }
+        }
     }
 }
